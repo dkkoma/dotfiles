@@ -1,0 +1,24 @@
+[user]
+	email = dkkoma@gmail.com
+	name = Daisuke Komazaki
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	lgraph = log --graph --all --decorate --oneline
+	fc = fetch
+	df = diff
+	dfh = diff HEAD
+	dfhh = diff HEAD~
+[color]
+	ui = auto
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
