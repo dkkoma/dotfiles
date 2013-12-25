@@ -67,3 +67,4 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH="$(brew --prefix)/bin:/usr/local/Cellar/php54/5.4.15/bin:$PATH"
 # report
 REPORTTIME=2
+stty stop undef
