@@ -1,9 +1,11 @@
 [user]
-	email = dkkoma@gmail.com
-	name = Daisuke Komazaki
+	email = daisuke_komazaki+github@voyagegroup.com
+	name = dkkoma
 [core]
 	excludesfile = ~/.gitignore
 	editor = vim
+	quotepath = false
+	editor = vim -c \"set fenc=utf-8\"
 [alias]
 	st = status
 	co = checkout
