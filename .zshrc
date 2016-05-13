@@ -62,6 +62,8 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias view='vim -R'
+alias g='git'
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH="$(brew --prefix)/bin:/usr/local/Cellar/php54/5.4.15/bin:$PATH"
