@@ -1,5 +1,4 @@
 ## aliases
-#alias ls='ls --color --time-style="+%Y-%m-%d %H:%M:%S"'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
