@@ -17,3 +17,12 @@ nnoremap Q <Nop>
 " color setting
 syntax enable
 set backspace=indent,eol,start
+
+" https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Files, backups and undo
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Turn backup off, since most stuff is in SVN, git et.c anyway...
+set nobackup
+set nowb
+set noswapfile
